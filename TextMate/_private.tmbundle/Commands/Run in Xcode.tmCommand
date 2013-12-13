@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>command</key>
+		<string>#!/bin/zsh
+
+osascript &lt;&lt;SCRIPT
+tell application "Xcode"
+	activate
+end tell
+
+tell application "System Events"
+	tell application process "Xcode"
+		click menu item "Stop" of menu 1 of menu bar item "Product" of menu bar 1
+		click menu item "Run" of menu 1 of menu bar item "Product" of menu bar 1
+	end tell
+end tell
+
+
+SCRIPT</string>
+		<key>name</key>
+		<string>Run in Xcode</string>
+	</dict>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>AB0E04AF-5F6B-4883-B1C6-E0AE546FCBFD</string>
+</dict>
+</plist>
