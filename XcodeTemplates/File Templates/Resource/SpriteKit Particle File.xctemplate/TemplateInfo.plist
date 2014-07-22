@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+	   	<string>com.apple.spritekit.serialized</string>
+ 	</array>
+	<key>DefaultCompletionName</key>
+	<string>MyParticle</string>
+	<key>Description</key>
+	<string>A particle effect template for SpriteKit particle emitter.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.sks</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<string>Fire</string>
+			<key>Description</key>
+			<string>What particle effect to create in the new file</string>
+			<key>Identifier</key>
+			<string>particlesSubclass</string>
+			<key>Name</key>
+			<string>Particle template</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>Bokeh</string>
+				<string>Fire</string>
+				<string>Fireflies</string>
+				<string>Magic</string>
+				<string>Rain</string>
+				<string>Smoke</string>
+				<string>Snow</string>
+				<string>Spark</string>
+			</array>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.macosx</string>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Summary</key>
+	<string>A particle effect template for SpriteKit particle emitter.</string>
+</dict>
+</plist>
