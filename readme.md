@@ -16,9 +16,10 @@
 	- Dock
 	- Screenshots
 - Users/ data
-	- Mail library
+	- Mail library (`~/Library/Mail`)
 	- Photos library
 	- iTunes library
+	- iMessage library/history (`~/Library/Messages`)
 	- Desktop
 	- Documents
 	- Downloads
@@ -39,6 +40,7 @@
 	- TextMate bundles -- here
 	- Services -- here
 	- LaunchAgents -- here
+	- Fonts (`~/Library/Fonts`)
 - Backups, security
 	- Double check FileVault is on
 	- Set up new Time Machine
