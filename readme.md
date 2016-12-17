@@ -41,8 +41,9 @@
 	- Wallpapers
 7. Backups, security
 	- Double check FileVault is on
+	- Turn on firmware password
+	- Turn on security notice
 	- Set up new Time Machine
-	- Backblaze/alternative online backup
+	- Set up online backup (Backblaze/Arq)
 	- Update passwords
-	- Security notice
 	- Firewall settings
